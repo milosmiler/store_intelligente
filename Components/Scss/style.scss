@@ -1,0 +1,29 @@
+/*
+Theme Name:
+Theme URI:
+Author: jairo villalobos
+Author URI:
+Description:
+Version: 1.0
+*/
+
+@import "_reset.scss";
+@import "_variables-mixin.scss";
+@charset 'utf-8';
+
+/*** FONT FACE ***/
+/*** GENERAL ***/
+@import "_header.scss";
+@import "_home.scss";
+@import "_product.scss";
+@import "_about.scss";
+@import "_contacto.scss";
+@import "_footer.scss";
+/********** LIBRERIAS ***********/
+@import "owl/owl.carousel.scss";
+@import "owl/_core.scss";
+@import "owl/owl.theme.default";
+/********** RESPONSIVE ***********/
+@import "responsive/_desktop.scss";
+@import "responsive/_tablet.scss";
+@import "responsive/_movil.scss";

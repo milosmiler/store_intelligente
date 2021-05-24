@@ -1,0 +1,140 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Oswald:wght@300;400;600;700&display=swap');
+h1,h2,h3,h4{
+	margin-top: 0px;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+p{
+	margin-top: 0px;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+strong{
+	font-weight: bold;
+}
+.flex{
+	display: flex;
+}
+.container{
+	max-width: 1260px;
+	margin: auto;
+}
+.container2{
+	max-width: 1200px;
+}
+a{
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	text-decoration: none;}
+
+figure{
+	img{
+		width: 100%;
+	}
+
+}
+a.btn{
+	border: 1px solid #3CDC83;
+	border-radius: 30px;
+	color: white;
+	font-size: 15px;
+	width: 102px;
+	height: 36px;
+	line-height: 35px;
+	display: block;
+	text-align: center;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+}
+a.btn-arrow{
+	font-size: 16px;
+	line-height: 19px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0px;
+	color: #000000;
+	margin-top:47px;
+	font-weight: 600;
+	svg#Capa_1{
+		vertical-align: middle;
+		margin-left: 10px;
+	}
+}
+a.btn-descripcion{
+	background: #FBA928 0% 0% no-repeat padding-box;
+	border-radius: 30px;
+	color: white;
+	max-width: 292px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	margin: auto;
+	display: block;
+	padding: 15px 0;
+	font-size: 15px;
+}
+button.arrow{
+	background: transparent;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Gotham Ultra';
+    src: url('../fonts/Gotham-Ultra.woff2') format('woff2'),
+        url('../fonts/Gotham-Ultra.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Black.woff2') format('woff2'),
+        url('../fonts/Gotham-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+.orange{
+	background: linear-gradient(90deg, #EA660C 55%, white 45%);
+    display: block;
+}
+.green{
+	background: linear-gradient(90deg, #218A9F 55%, white 45%);
+    display: block;
+}
+.blue{
+	background: linear-gradient(90deg, #0B56CE 55%, white 45%);
+    display: block;
+}
+
+.rose{
+	background: linear-gradient(90deg, #DC053F 55%, white 45%);
+    display: block;
+}
+.owl-dots{
+	text-align: center;
+	margin-bottom: 100px;
+}
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot{
+	width: 10px;
+	height: 10px;
+	background: #ccc!important;
+	border-radius: 100px;
+	margin-right: 10px;
+	&.active{
+		background: #707070!important;
+	}
+
+}

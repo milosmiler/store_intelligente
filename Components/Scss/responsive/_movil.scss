@@ -1,0 +1,498 @@
+@media only screen and (max-width: 767px) {
+
+    .container{
+        padding: 0 20px;
+    }
+    section.cover{
+        padding: 129px 0 46px;
+        overflow: hidden;
+    }
+    section.cover h1{
+        display: none;
+    }
+    section.cover h2{
+        font-size: 18px;
+        margin-top: 100px;
+    }
+    section.cover p{
+        font-size: 16px;
+    }
+    section.cover .container{
+        flex-direction: column-reverse;
+        padding: 0 20px;
+    }
+    section.cover .container .item-circle .circle{
+        width: 220px;
+        height: 225px;
+        margin: auto;
+    }
+    section.cover .container .item-circle{
+        width: 100%;
+    }
+    header .container2{
+        padding: 0 20px;
+    }
+    section.cover .container .item-circle .circle::before{
+        width: 250px;
+        height: 245px;
+    }
+    #images{
+        width: 83%;
+    }
+    section.about .container h2{
+        font-size: 40px;
+    }
+    section.about .container article, section.about .container article p{
+        width: 100%;
+    }
+    section.about .container article h3{
+        font-size: 30px;
+    }
+    section.about .container article {
+        padding-bottom: 100px;
+    }
+    section.about .container article:last-child, section.about .container article:last-child p,
+    section.products .container article, section.information-management .container > p,
+    section.benefit .container p, section.about-solutions .container .col-item, section.about-solutions .container .col-item:last-child{
+        width: 100%;
+    }
+    section.description h2{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    section.products .container h2{
+        font-size: 30px;
+    }
+    section.products .container article{
+        margin: 0 0 35px;
+    }
+    section.products .container article h3{
+        font-size: 38px;
+    }
+    section.information-management .container h2{
+        display: block;
+        width: 100%;
+        font-size: 37px;
+    }
+    footer .container{
+        flex-direction: column;
+    }
+    footer .container .footer{
+        flex-direction: column;
+    }
+    .footer > div:nth-child(2){
+        padding-left: 20px;
+    }
+    nav{
+        width: 100%;
+        padding: 0 20px;
+    }
+    nav .item-col{
+        width: 100%;
+    }
+    nav a{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    nav .item-content{
+        padding: 20px 0 0;
+    }
+    nav .item-col p{
+        font-size: 18px;
+    }
+    nav .item-col .item-content-data a{
+        font-size: 16px;
+    }
+
+    section.product .container{
+        flex-direction: column;
+    }
+    section.product .container p{
+        margin-top: 10px;
+    }
+    section.benefit .container span.item-breacrumbs{
+        font-size: 12px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    section.benefit .container h2{
+        font-size: 30px;
+    }
+    section.benefit .container h2{
+        width: 100%;
+    }
+    section.benefit .container h2{
+        line-height: 38px;
+    }
+    section.benefit .container p{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    section.benefit .container article{
+        margin-bottom: 30px;
+    }
+    section.about-solutions .container h2{
+        font-size: 34px;
+        margin-bottom: 0;
+        line-height: 39px;
+    }
+    section.about-solutions .container h3{
+        padding-left: 0;
+        font-size: 20px;
+        line-height: 50px;
+        text-align: center;
+    }
+    section.about-solutions .item-content{
+        flex-direction: column-reverse;
+    }
+    section.about-solutions .container .col-item{
+        padding-left: 0;
+    }
+    section.frequent-questions .container h2{
+        font-size: 35px;
+    }
+    .accordion-header{
+        font-size: 16px;
+        line-height: 50px;
+    }
+    .accordion-text p{
+        font-size: 15px;
+    }
+    div.container:nth-child(2){
+        flex-direction: column-reverse;
+    }
+
+    footer .container figure{
+        width: 200px;
+        margin-bottom: 65px;
+    }
+    footer .container .footer .item-col{
+        margin: 0;
+    }
+    footer .container .footer{
+        margin-bottom: 0;
+    }
+    .container:nth-child(2) > aside:nth-child(2){
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    div.container:nth-child(2) > aside:nth-child(1){
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    footer .container aside p, footer .container aside a{
+        margin-bottom: 18px;
+    }
+    div.container:nth-child(2) > aside:nth-child(1) > p:nth-child(1){
+        text-align: center;
+        margin-top: 30px;
+    }
+    header .container2 .item-menu{
+        font-size: 17px;
+    }
+    section.about-products .container .item-content{
+        flex-direction: column;
+    }
+    section.about-products .container .item-content article{
+        width: 100%;
+    }
+    section.about-products .container .item-content article{
+        padding: 5px;
+    }
+    section.about-products .container .item-content article:nth-child(2n+1){
+        border: none;
+        border-bottom: 1px solid #FF5C5C;
+    }
+    section.about-products .container .item-content article{
+        border-top: none;
+        border-bottom: 1px solid #FF5C5C;
+    }
+    section.about-products .container .item-content article h3{
+        font-size: 30px;
+        margin-bottom: 28px;
+    }
+    section.about-products .container .item-content article a.btn-arrow{
+        margin-bottom: 30px;
+        display: block;
+    }
+
+    section.product{
+        &.green{
+            background: #218A9F;
+            padding-top: 100px;
+            .col-item figure{
+                margin-bottom: -50px;
+                margin-top: 76px;
+            }
+
+            .col-item h1{
+                font-size: 35px;
+            }
+
+        }
+        &.blue{
+            padding-top: 100px;
+            background: #0B56CE;
+            .col-item h1{
+                font-size: 35px;
+            }
+            .col-item figure{
+                padding-left: 0;
+                margin-bottom: -50px;
+            }
+            .col-item a.btn{
+                display: none;
+            }
+            .container i{
+                display: none;
+            }
+        }
+        &.rose{
+            padding-top: 100px;
+            background: #DC053F;
+            .col-item h1{
+                font-size: 29px;
+            }
+            .col-item a.btn{
+                display: none;
+            }
+            .col-item figure{
+                padding-left: 0;
+                margin-bottom: -50px;
+            }
+            .container i{
+                display: none;
+            }
+        }
+        &.orange{
+            padding-top: 100px;
+            background: #EA660C;
+            .col-item h1{
+                font-size: 35px;
+            }
+            .col-item a.btn{
+                display: none;
+            }
+            .col-item figure{
+                padding-left: 0;
+                margin-bottom: -50px;
+            }
+            .container i{
+                display: none;
+            }
+        }
+
+    }
+
+    section.cover-about .container h1{
+        font-size: 20px;
+    }
+    section.cover-about .container h1 span.medium, section.cover-about .container h1 span.big{
+        font-size: 50px;
+    }
+    section.cover-about .container p, section.purposes .container article{
+        width: 100%;
+        padding-bottom: 60px;
+    }
+    section.purposes .container article:nth-child(2)::before{
+        display: none;
+    }
+    .purposes > div:nth-child(2) > article:nth-child(1){
+        position: relative;
+    }
+    .purposes > div:nth-child(2) > article:nth-child(1):before{
+        content: '';
+        width: 189px;
+        height: 26px;
+        background: #008DAA 0% 0% no-repeat padding-box;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    section.purposes .container{
+        flex-direction: column;
+    }
+    section.purposes .container article h3{
+        font-size: 30px;
+    }
+    section.purposes .container article h2{
+        font-size: 35px;
+    }
+    .purposes > div:nth-child(2){
+        flex-direction: column-reverse;
+    }
+    section.cover-about .container i.fas.fa-arrow-down{
+        display: none;
+    }
+    section.purposes .container article:nth-child(2) a{
+        margin-bottom: 35px;
+    }
+    section.contacto .container{
+        flex-direction: column;
+    }
+    section.contacto .container .item-col{
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 90px;
+    }
+    section.contacto .container .item-col h2{
+        font-size: 50px;
+    }
+    section.contacto .container .item-col p{
+        font-size: 22px;
+    }
+    section.contacto .container .item-col:nth-child(2) a{
+        font-size: 15px;
+    }
+
+    section.solutions-schema .container .item-content{
+        flex-direction: column;
+    }
+    section.solutions-schema .container .item-content .item-col{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    section.solutions-schema .container .item-content .item-col h4{
+        padding-left: 5px;
+    }
+    section.solutions-schema .container .item-content .item-col h4{
+        font-size: 35px;
+    }
+    section.solutions-schema .container .item-content .item-col.color .row.back,
+    section.solutions-schema .container .item-content .item-col .row{
+        padding-left: 5px;
+    }
+
+    section.information-management .container h2{
+        line-height: 53px;
+        margin-bottom: 10px;
+    }
+
+
+    section.product .container h1{
+        font-size: 31px;
+        line-height: 42px;
+    }
+    section.product.green .col-item figure::before{
+        display: none;
+    }
+    a.btn-descripcion{
+        font-size: 15px;
+    }
+    section.product.green .col-item a.btn{
+        display: none;
+    }
+    section.product.green .col-item figure{
+        margin-bottom: -50px;
+        margin-top: 76px;
+    }
+    section.product .container .col-item figure{
+        width: 100%;
+    }
+    section.product.green .container i{
+        display: none;
+        right: 2px;
+    }
+    section.about-solutions .container ul li{
+        padding-left: 15px;
+    }
+    section.about-solutions .container ul li::before{
+        left: 1px;
+
+    }
+    .item-menu {
+        display: none;
+    }
+    section.cover .container .item-circle img{
+        width: 85%;
+    }
+    .burger-nav{
+        width: 20px;
+        height: 19px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        i.item-bar{
+            height: 3px;
+            background: #fff;
+            margin-bottom: 4px;
+            display: block;
+            &.active{
+                background: #000;
+            }
+
+            &:nth-child(1){
+                width: 9px;
+                height: 2px;
+            }
+            &:nth-child(2){
+                width: 14px;
+                height: 2px;
+            }
+            &:nth-child(3){
+                width: 100%;
+                height: 2px;
+            }
+        }
+    }
+    section.cover br{
+        display: none;
+    }
+    p br{
+        display: none;
+    }
+    video#mobile{
+        display: block!important;
+    }
+    video#video{
+        display: none;
+    }
+    section.purposes .container article:nth-child(2){
+        padding: 0px 1px 0 0;
+    }
+    .purposes > div:nth-child(1) > article:nth-child(2){
+        margin-bottom: 50px;
+    }
+    nav span.close{
+        top: 10px;
+        right: 15px;
+    }
+    .accordion-header #Capa_1{
+        top: 33%;
+    }
+    header{
+        padding-top: 50px;
+    }
+    header .container span.language{
+        display: none;
+    }
+    section.contacto{
+        padding-top: 120px;
+    }
+    section.contacto .container.flex .item-col h2{
+        margin-top: 50px;
+    }
+    section.solutions-schema .container h2{
+        font-size: 37px;
+        line-height: 42px;
+    }
+    section.solutions-schema .container .item-content h3{
+        font-size: 20px;
+    }
+
+
+
+
+}
+@media only screen and (max-width: 480px) {
+
+    section.cover h2{
+        margin-top: 50px;
+    }
+
+}
+
+
+@media only screen and (max-width: 320px) {
+
+}

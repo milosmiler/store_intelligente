@@ -1,0 +1,100 @@
+section.contacto{
+    padding: 290px 0 46px;
+    background: #F7F7F8 0% 0% no-repeat padding-box;
+    .container{
+        justify-content: space-between;
+        .item-col{
+            width: 48%;
+            padding-right: 20px;
+            &:nth-child(2) {
+                padding-right: 0;
+              h2{
+                    font-size: 30px;
+                    font-size: 30px;
+                    line-height: 45px;
+                    letter-spacing: 0px;
+                    color: #2C2C2C;
+                    font-family: 'Oswald', sans-serif;
+                    margin-bottom: 28px;
+              }
+              a{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 20px;
+                line-height: 24px;
+                letter-spacing: 0px;
+                color: #DC053F;
+                text-transform: lowercase;
+                display: block;
+                margin-bottom: 10px;
+              }
+              p{
+                font-size: 17px;
+                line-height: 31px;
+                font-family: 'Montserrat', sans-serif;
+                letter-spacing: 0px;
+                color: #DC053F;
+                margin-bottom: 20px;
+              }
+              span.instagram{
+                  margin-right: 20px;
+              }
+            }
+            h2{
+                font-size: 90px;
+                line-height: 55px;
+                font-family: 'Oswald', sans-serif;
+                color: #0D0D0D;
+                margin-bottom: 40px;
+            }
+            p{
+                font-size: 35px;
+                line-height: 43px;
+                letter-spacing: 1.4px;
+                font-family: 'Montserrat', sans-serif;
+                margin-bottom: 80px;
+            }
+            label{
+                font-size: 20px;
+                line-height: 24px;
+                font-family: 'Montserrat', sans-serif;
+                display: block;
+                margin-bottom: 14px;
+                color: #000000;
+                letter-spacing: 0px;
+                
+            }
+            input{
+                width: 100%;
+                border: none;
+                border-bottom: 1px solid #ccc;
+                height: 35px;
+                background: transparent;
+                text-transform: lowercase;
+                font-family: 'Montserrat', sans-serif;
+                color: #9A9A9A;
+                margin-bottom: 50px;
+                &::placeholder {
+                    font-size: 20px;
+                }
+
+            }
+            button{
+                background: transparent;
+                border: none;
+                font-size: 18px;
+                line-height: 19px;
+                font-family: 'Montserrat', sans-serif;
+                letter-spacing: 0px;
+                color: #CB053B;
+                float: right;
+                i.fas.fa-long-arrow-alt-right{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+section.contacto .container.flex .item-col h2{
+    margin-top: 90px;
+}
